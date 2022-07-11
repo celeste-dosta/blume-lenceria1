@@ -639,42 +639,44 @@ a{
 
 .fin{
    
-   display: grid;
-   grid-template-columns: auto auto;
-   grid-template-rows: auto auto;
-   background-color: pink;
-   width: auto;
-   height: fit-content;
-
-    /*display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: auto;
-    padding: 1px;
-    margin: 1px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    top:0;
-    */
-}
-
-.fin__ubicacion{
-    grid-area: 2/1/2/2 ;
-}
-.fin__rrss{
-    grid-area: 2/2/4/3;
-}
-
-.fin__whatsapp{
-    grid-area: 4/5/5/4;
-    
-}
-
-h2{
-    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
     background-color: pink;
-}
-
-h4.{
-    text-align: center;
-}
+    width: auto;
+    height: fit-content;
+ 
+     /*display: flex;
+     flex-direction: row;
+     width: 100%;
+     height: auto;
+     padding: 1px;
+     margin: 1px;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     top:0;
+     */
+ }
+ 
+ .fin__ubicacion{
+     grid-area: 2/1/2/2 ;
+ }
+ .fin__rrss{
+     grid-area: 2/2/4/3;
+ }
+ 
+ .fin__whatsapp{
+     grid-area: 4/5/5/4;
+     
+ }
+ 
+ h2{
+     text-align: center;
+     background-color: pink;
+ }
+ 
+ h4.{
+     text-align: center;
+ }
+ 
+ 
