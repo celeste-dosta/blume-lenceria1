@@ -518,7 +518,7 @@ a{
     padding: 0 auto;
     margin:20px 100px 50px 100px;
     
-   position:relative;
+    position:relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     border-radius: 20px;
@@ -597,10 +597,11 @@ a{
     width: 100%;
     height: auto;
     padding: 0 auto;
-    margin: 1px 20px 1px 20px;
+    margin: 0px auto;
     overflow: hidden;
     box-sizing:border-box;
     flex-wrap: wrap;
+    
 }
 
 .ingresos__corpino{
@@ -615,13 +616,6 @@ a{
     padding: 1px;
     margin: 5px 1px;
 }
-.ingresos__bombacha{
-    width: 500px;
-    height: auto;
-    padding: 1px;
-    margin: 5px 1px;
-}
-
 .ingresos__camison{
     width: 500px;
     height: auto;
@@ -637,10 +631,7 @@ a{
     width: 100%;
     height: 100%;
 }
-.ingresos__bombacha img{
-    width: 100%;
-    height: 100%;
-}
+
 .ingresos__camison img{
     width: 100%;
     height: 100%;
@@ -656,4 +647,9 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     top:0;
+}
+
+h2{
+    text-align: center;
+    background-color: pink;
 }
