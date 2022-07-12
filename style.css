@@ -140,8 +140,9 @@ html {
    
    /* background-color:pink;
     border: 0.5px solid pink;*/
+
     padding: 2px 0px;
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
     height: auto;
     width: 100%;
     align-content:space-between;
@@ -158,10 +159,10 @@ html {
     width: 100%;
     height: 30px;
     padding: 1px;
-    margin: 0 auto;
+    margin: 1px 5px 1px 5px;
     align-items: center;
     text-align: center;
-    align-content: flex-start;
+    
    
    /* box-sizing:content-box;*/     
     
@@ -244,6 +245,7 @@ a{
    width: auto;
    height: 1px;
    text-align:center;
+   border: 1 pink;
 }
 
 .banner{
@@ -391,7 +393,7 @@ a{
     width: 400px;
     height: 600px;
     padding: 0 auto;
-    margin:30px 100px 50px 100px;
+    margin:20px 50px 50px 100px;
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -448,7 +450,7 @@ a{
     width: 400px;
     height: 600px;
     padding: 0 auto;
-    margin: 30px 100px 50px 100px;
+    margin:20px 50px 50px 100px;
 
     position: relative;
     cursor: pointer;
@@ -484,7 +486,7 @@ a{
     width: 400px;
     height: 600px;
     padding: 0 auto;
-    margin: 20px 100px 50px 100px;
+    margin:20px 50px 50px 100px;
     
     position: relative;
     cursor: pointer;
@@ -520,7 +522,7 @@ a{
     width: 400px;
     height: 600px;
     padding: 0 auto;
-    margin:20px 100px 50px 100px;
+    margin:20px 50px 50px 100px;
     
     position:relative;
     cursor: pointer;
@@ -538,7 +540,7 @@ a{
     width: 400px;
     height: 600px;
     padding: 0 auto;
-    margin: 20px 100px 50px 100px;
+    margin:20px 50px 50px 150px;
     
     position: relative;
     cursor: pointer;
@@ -647,9 +649,9 @@ a{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     background-color: pink;
-    width: auto;
+    width: 100%;
     height: auto;
-    margin: 5px 1px 1px 1px;
+    margin: 5px auto;
  
      /*display: flex;
      flex-direction: row;
@@ -678,17 +680,22 @@ a{
  h2{
      text-align: center;
      background-color: pink;
+     font-size: 30px;
  }
  
  h4{
      text-align: center;
      margin-top: 10px;
      margin-bottom: 30px;
+     font-size: 30px;
  }
 
  .h4__whatsapp{
-    text-align: center;
+     text-align: center;
      margin-top: 30px;
+     font-size: 25px;
+     margin-top: 30PX;
+     
  }
 
  .iconos__button{
@@ -718,6 +725,7 @@ a{
     width: 600px;
     height: 400px;
  }
+
  h5{
     text-align: center;
  }
