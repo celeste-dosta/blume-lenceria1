@@ -767,6 +767,30 @@ a{
     margin: 15px 5px 5px 30px;
  }
 
- 
+ .contacto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+
+ }
+ .mb-3{
+   margin: 5px 5px 5px 5px;
+ }
+ .mb-3 textarea{
+    width: 300px;
+    height: 200px;
+ }
     
+ .contacto__form h3{
+    width: 100%;
+    height: 30px;
+    padding: 1px;
+    margin: 1px 5px 1px 5px;
+    align-items: center;
+    text-align: center;
+ }
+
  
