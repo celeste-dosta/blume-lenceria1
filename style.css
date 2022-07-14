@@ -147,6 +147,7 @@ html {
     width: 100%;
     align-content:space-between;
     text-align:center;
+    flex-wrap: wrap;
    
     
 
@@ -186,7 +187,7 @@ html {
     
    /* background-image: url(./css-styles/imagenes/fondo.jpg) ;*/
     width: 100px;
-    height: 100px;
+    height: 50px;
     padding: 1px;
     margin: 1px ;
     
@@ -229,12 +230,11 @@ a{
    display:flex;
    flex-direction: row;
    list-style: none;
-  
-   margin: 0;
    padding: 1px;
    justify-content: space-evenly;
-   width: auto;
-   height: auto;
+   width: 100%;
+   height: 100px;
+   margin: 0 0 auto 1px ;
    
  
 } 
@@ -243,9 +243,11 @@ a{
   
    margin: 0 auto;
    width: auto;
-   height: 1px;
+   height: 3px;
    text-align:center;
    border: 1 pink;
+   font-size: 20px;
+   
 }
 
 .banner{
@@ -269,57 +271,14 @@ a{
    
 }
 
-/*.banner:hover{
-    transform: scale(1.5);
-    
-}
-*/
-.banner__enterizas img{
-    width: 500px;
-    height: 100%;
-    
-}
-.banner__enterizas{
-   
-    width: 500px;
-    height: auto;
-    padding: 1px;
-    margin: 0px 50px 10px 80px;
-   
-   
-    
+.carousel-inner{
+    width: auto;
+    height: 800px;
 }
 
-.banner__body img{
-    width: 500px;
-    height: 100%;
-}
-.banner__body{
-    width: 500px;
-    height: auto;
-    padding: 1px;
-    margin: 0px 50px 10px 0px;
-
-}
-
-.banner__conjunto img{
-    width: 500px;
-    height: 100%;
-
-}
-
-.banner__conjunto{
-    width: 500px;
-    height: auto;
-    padding: 1px;
-    margin:0px 50px 10px 30px;
-    
-}
-
-.categorias__titulo{
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
+.carousel-item{
+    width: auto;
+    height: 800px;
 }
 .categorias{
    
@@ -419,7 +378,7 @@ a{
     width: 400px;
     height: 600px;
     padding: 0 auto;
-    margin: 30px 100px 50px 100px;
+    margin: 30px 100px 50px 150px;
    
     position: relative;
     cursor: pointer;
@@ -450,7 +409,7 @@ a{
     width: 400px;
     height: 600px;
     padding: 0 auto;
-    margin:20px 50px 50px 100px;
+    margin:20px 50px 50px 150px;
 
     position: relative;
     cursor: pointer;
@@ -486,7 +445,7 @@ a{
     width: 400px;
     height: 600px;
     padding: 0 auto;
-    margin:20px 50px 50px 100px;
+    margin:20px 100px 50px 100px;
     
     position: relative;
     cursor: pointer;
@@ -522,7 +481,7 @@ a{
     width: 400px;
     height: 600px;
     padding: 0 auto;
-    margin:20px 50px 50px 100px;
+    margin:20px 100px 50px 100px;
     
     position:relative;
     cursor: pointer;
