@@ -879,3 +879,21 @@ a{
     margin: 10px 30px 30px 30px;
     
  }
+
+ .marcas{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   height: 100%;
+    width: 100%;
+ }
+ .marcas__item{
+    height: auto;
+    width: auto;
+
+ }
+
+ .marcas__item img{
+    width: 250px;
+    height: 400px;
+ }
