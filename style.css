@@ -555,7 +555,6 @@ a{
 }
 
 
-
 .ingresos{
     display: flex;
     justify-content:space-evenly;
@@ -666,14 +665,14 @@ a{
  }
 
  .iconos__button{
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     border: none;
     border-radius: 10px;
     margin: 5px 5px 5px 5px;
     cursor: pointer;
     padding: 0 auto;
-    font-size: 90px;
+    font-size: 40px;
     display: flex;
     justify-content:flex-start;
     background-color: pink;
@@ -691,7 +690,7 @@ a{
 }
 
 .logo__fin img{
-    width: 80px;
+    width: 100px;
     height: auto;
     object-fit: cover;
     margin-top: 20px;
@@ -706,6 +705,8 @@ a{
     flex-direction: row;
     margin: 0 auto;
     margin-bottom: 30px;
+    height: auto;
+    width: auto;
 }
 
 .iconos {
@@ -714,31 +715,6 @@ a{
     height: 80px;
     margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .fin__ubicacion{
     width: auto;
