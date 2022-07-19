@@ -40,7 +40,18 @@ html {
 .categorias__mobile__sexy{
     display: none;
 }
-
+.ingresos__mobil{
+    display: none;
+}
+.ingresos__mobil__corpino{
+    display: none;
+}
+.ingresos__mobil__body{
+    display: none;
+}
+.ingresos__mobil__camison{
+    display: none;
+}
 @media only screen and (min-width: 375px) {
   
   
@@ -65,15 +76,15 @@ html {
     justify-content: space-around;
  
 }
-
-.categorias__mobile img{
-    
+.footer{
+    display: block;
+}
+.ingresos__mobil{
+    display: block;
+}
 }
 
-}
 
-/*.encabezado__navegador{
-    */
 
 
 
@@ -593,6 +604,7 @@ a{
     overflow: hidden;
     box-sizing:border-box;
     flex-wrap: wrap;
+    position: relative;
     
 }
 
@@ -709,8 +721,11 @@ a{
     flex-direction: row;
     justify-content: space-evenly;
     background-color: pink;
+    background-position-x: right;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
+    border-radius: 10px;
     
     
 }
@@ -720,11 +735,13 @@ a{
     height: auto;
     object-fit: cover;
     margin-top: 20px;
+    
 }
 
 .logo__fin{
   width: auto;
-  height: auto; 
+  height: auto;
+  align-items: center; 
 }
  
 .fin__redes{
