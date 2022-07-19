@@ -11,43 +11,69 @@
 html {
     font-size: 20px;
 }
-
-@media screen and (max-width: 375px) {
+.nav-mobile{
+    display: none;
+}
+.categorias__mobile{
+    display: none;
     
-    .contenedor{
-        display: grid;
-        grid-template-areas: 
-        'header header header'
-        'main main main'
-        'footer footer footer'
-        ;
-        grid-template-columns: auto;
-        grid-template-rows: repeat(4, auto);
-        gap: 10px;
-        background-color: white;
-        height: 100vh;
-        margin: 0%;
-
-    }
-
-    .encabezado{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 100px;
-
-    }
-     
-    .banner{
-
-            display: flex;
-            flex-direction: column;
-
-   }
-
+}
+.categorias__mobile__conjuntos{
+    display: none; 
    
+}
+.categorias__mobile__bodys{
+    display: none;
+          
+}
+.categorias__mobile__trajesDeBano{
+    display: none;
+    
+}
+.categorias__mobile__maternal{
+    display: none;
+}
 
-    }
+.categorias__mobile__pijamas{
+    display: none;
+}
+.categorias__mobile__sexy{
+    display: none;
+}
+
+@media only screen and (min-width: 375px) {
+  
+  
+ /*.encabezado__navegador{
+    display: none;
+  }
+
+  */
+.nav-mobile{
+    display: block;
+}
+.nav-mobil ul{
+    display: block;
+}
+.nav-mobile img{
+    display: none;
+}
+.categorias__mobile{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+ 
+}
+
+.categorias__mobile img{
+    
+}
+
+}
+
+/*.encabezado__navegador{
+    */
 
 
 
