@@ -532,7 +532,7 @@ a{
      
  }
 
- .iconos__button{
+ .fin__iconos__button{
     width: 40px;
     height: 40px;
     border: none;
@@ -560,15 +560,15 @@ a{
     
 }
 
-.logo__fin img{
+.fin__logo img{
     width: 100px;
     height: auto;
     object-fit: cover;
     margin-top: 20px;
-    
+ 
 }
 
-.logo__fin{
+.fin__logo{
   width: auto;
   height: auto;
   align-items: center; 
@@ -582,7 +582,7 @@ a{
     width: auto;
 }
 
-.iconos {
+.fin__iconos {
 
     width: 80px;
     height: 80px;
