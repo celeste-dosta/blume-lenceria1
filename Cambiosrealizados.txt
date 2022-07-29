@@ -1,0 +1,12 @@
+-Agregue las siguientes Keywords en todos mis HTML:
+lenceria, bombacha, ropa interior, mujer, bodys, encaje, portaligas, maternal, corpiños, pijamas, camisones, trajes de baño, bikinis, enterizas, sexy
+
+-Cambié los siguientes títulos 
+BLUMÉ / HOME
+BLUMÉ / CONTACTO
+BLUMÉ / QUIÉNES SOMOS
+BLUMÉ / PRODUCTOS
+BLUMÉ / TABLA DE TALLES
+BLUMÉ /MARCAS
+
+-Descripción: Agregue la misma descripción para todos los HTML por el momento
