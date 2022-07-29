@@ -16,7 +16,7 @@
     grid-template-rows: 1fr 18fr 1fr 1fr;
     gap: 20px;
     grid-auto-flow: dense;
-    background-color:$color-principal;
+    background-color: map-get($colores, "color-principal");
     height: 100vh;
     margin: 0%;
     width: auto;
@@ -38,10 +38,10 @@
     flex-wrap: wrap;
     justify-content: center;
     top: 0;
-    background-color:$color-principal;
+    background-color: map-get($colores, "color-principal");
     box-sizing: border-box;
     &__barraPromo{
-        background-color: $color-secundario2;
+        background-color: map-get($colores, "color-secundario2");
     width: 100%;
     height: 30px;
     padding: 1px;
@@ -92,7 +92,7 @@
    width: auto;
    height: 3px;
    text-align:center;
-   border: 1 $color-secundario;
+   border: 1 map-get($colores, "color-secundario");
    font-size: 20px;
 
    a{
@@ -112,7 +112,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color:$color-secundario;
+    background-color:map-get($colores, "color-secundario");
     background-position-x: right;
     background-repeat: no-repeat;
     width: 100%;
@@ -159,7 +159,8 @@
         font-size: 40px;
         display: flex;
         justify-content:flex-start;
-        background-color: $color-secundario; 
+        background-color: map-get($colores, "color-secundario"); 
     }
     
 }
+

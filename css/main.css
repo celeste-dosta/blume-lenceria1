@@ -1,3 +1,4 @@
+/*mixin*/
 * {
   margin: 0;
   padding: 0;
@@ -153,3 +154,26 @@
     margin: 1px 5px 1px 5px;
     align-items: center;
     text-align: center; }
+
+/*mixin*/
+.banner {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1px 20px 1px 20px;
+  overflow: hidden;
+  box-sizing: border-box; }
+
+.ingresos {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: relative; }

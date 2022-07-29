@@ -1,3 +1,8 @@
-$color-principal:white;
-$color-secundario:pink;
-$color-secundario2:palevioletred;
+$colores: (
+    "color-principal":white,
+    "color-secundario":pink,
+    "color-secundario2":palevioletred
+);
+
+/*mixin*/
+

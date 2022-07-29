@@ -1,0 +1,15 @@
+@import "./base/variable";
+
+@mixin flex($direction, $justify, $aling, $wrap){
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $aling;
+    flex-wrap: $wrap;
+}
+
+
+    
+    

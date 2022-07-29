@@ -1,0 +1,17 @@
+.banner{
+    @include flex (row, space-evenly, center, wrap)
+    margin: 1px 20px 1px 20px;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+
+.ingresos{
+    @include flex (row, space-evenly, flex-start, wrap)
+    position: relative;
+}
+
+
+
+
+
+
