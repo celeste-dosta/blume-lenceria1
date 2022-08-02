@@ -5,10 +5,59 @@
     box-sizing:border-box;
 }
 
+.carousel-inner{
+    width: auto;
+    height: 800px;
+&-item{
+    width: auto;
+    height: 800px;
+}
+}
+
 .ingresos{
     @include flex (row, space-evenly, flex-start, wrap)
     position: relative;
 }
+.encabezado__mobile{
+    display: none;
+}
+.categorias__mobile{
+    display: none;
+    
+&__conjuntos{
+    display: none;   
+}
+&__bodys{
+    display: none;
+          
+}
+&__trajesDeBano{
+    display: none;
+    
+}
+&__maternal{
+    display: none;
+}
+&__pijamas{
+    display: none;
+}
+&__sexy{
+    display: none;
+}
+}
+.ingresos__mobil{
+    display: none;
+&__corpino{
+    display: none;
+}
+&__body{
+    display: none;
+}
+&__camison{
+    display: none;
+}
+}
+
 .categorias{
   
     display: flex;
@@ -159,7 +208,7 @@
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 0 0 8px rgb(0, 0, 0, 0.8);
+    text-shadow: 0 0 8px rgba(5, 0, 0, 0.8);
 }
 }
 
@@ -177,22 +226,25 @@
     flex-wrap: wrap;
     position: relative;
     &__corpino{
-        width: 500px;
+        width: 400px;
         height: auto;
         padding: 1px;
         margin: 5px 1px;
+        border-radius: 10px;
     }
     &__body{
-        width: 500px;
+        width: 400px;
         height: auto;
         padding: 1px;
         margin: 5px 1px;
+        border-radius: 10px;
     }
     &__camison{
-        width: 500px;
+        width: 400px;
         height: auto;
         padding: 1px;
         margin: 5px 1px;
+        border-radius: 10px;
     }
     &__corpino img{
         width: 100%;

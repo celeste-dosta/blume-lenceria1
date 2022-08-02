@@ -127,7 +127,8 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    top:0%;
+    top: 0%;
+    
     &__logo{
         width: auto;
         height: auto;
@@ -158,14 +159,14 @@
     margin: 0 auto;
     }
     &__iconos__button{
-        width: 40px;
-        height: 40px;
+        width: 100px;
+        height: 100px;
         border: none;
         border-radius: 10px;
         margin: 5px 5px 5px 5px;
         cursor: pointer;
         padding: 0 auto;
-        font-size: 40px;
+        font-size: 100px;
         display: flex;
         justify-content:flex-start;
         background-color: map-get($colores, "color-secundario"); 
@@ -197,6 +198,12 @@ h4{
     
 }
 }
+
+h5{
+    text-align: center;
+    font-size: 25px;
+}
+
 .img-thumbnail{
     width: 100px;
    height: 50px;
