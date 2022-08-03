@@ -6,7 +6,9 @@
 .contenedor {
   font-family: 'Mukta', sans-serif;
   display: grid;
-  grid-template-areas: 'header header header' 'main main main' 'footer footer footer';
+  grid-template-areas: 'header header header'
+ 'main main main'
+ 'footer footer footer';
   grid-template-columns: auto;
   grid-template-rows: 1fr 18fr 1fr 1fr;
   gap: 20px;
@@ -24,6 +26,34 @@
     width: auto; }
   .contenedor footer {
     grid-area: 5/1/5/1; }
+
+.encabezado__mobile {
+  display: none;
+  @in; }
+
+.categorias__mobile {
+  display: none; }
+  .categorias__mobile__conjuntos {
+    display: none; }
+  .categorias__mobile__bodys {
+    display: none; }
+  .categorias__mobile__trajesDeBano {
+    display: none; }
+  .categorias__mobile__maternal {
+    display: none; }
+  .categorias__mobile__pijamas {
+    display: none; }
+  .categorias__mobile__sexy {
+    display: none; }
+
+.ingresos__mobile {
+  display: none; }
+  .ingresos__mobile__corpino {
+    display: none; }
+  .ingresos__mobile__body {
+    display: none; }
+  .ingresos__mobile__camison {
+    display: none; }
 
 .encabezado {
   display: flex;
@@ -106,9 +136,10 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  top: 0%; }
+  top: 0%;
+  list-style: none; }
   .fin__logo {
-    width: auto;
+    width: 100px;
     height: auto;
     align-items: center; }
   .fin__logo img {
@@ -142,6 +173,9 @@
     display: flex;
     justify-content: flex-start;
     background-color: pink; }
+  .fin__lista a {
+    text-decoration: none;
+    color: black; }
 
 h2 {
   text-align: center;
@@ -220,33 +254,6 @@ h5 {
   flex-wrap: wrap;
   position: relative; }
 
-.encabezado__mobile {
-  display: none; }
-
-.categorias__mobile {
-  display: none; }
-  .categorias__mobile__conjuntos {
-    display: none; }
-  .categorias__mobile__bodys {
-    display: none; }
-  .categorias__mobile__trajesDeBano {
-    display: none; }
-  .categorias__mobile__maternal {
-    display: none; }
-  .categorias__mobile__pijamas {
-    display: none; }
-  .categorias__mobile__sexy {
-    display: none; }
-
-.ingresos__mobil {
-  display: none; }
-  .ingresos__mobil__corpino {
-    display: none; }
-  .ingresos__mobil__body {
-    display: none; }
-  .ingresos__mobil__camison {
-    display: none; }
-
 .categorias {
   display: flex;
   flex-direction: row;
@@ -257,7 +264,7 @@ h5 {
   overflow: hidden;
   width: 100%;
   align-content: 100vh;
-  background-image: url(./css-styles/imagenes/fondo.jpg);
+  background-image: url(../css-styles/imagenes/fondo.jpg);
   background-repeat: repeat; }
   .categorias__conjuntos {
     width: 400px;
@@ -430,7 +437,7 @@ h5 {
     grid-area: 1/2/3/1;
     width: auto;
     margin: 10px 10px;
-    background-image: url(./css-styles/imagenes/fondo.jpg);
+    background-image: url(../css-styles/imagenes/fondo.jpg);
     font-weight: 10px;
     background-size: cover; }
   .nosotras__flor {
@@ -440,13 +447,43 @@ h5 {
     margin: 5px auto;
     border: 0;
     border-radius: 12px;
-    background-image: url(./blume/nosotras/modelo-feliz.png);
+    background-image: url(../blume/nosotras/modelo-feliz.png);
     background-repeat: no-repeat;
     background-size: contain;
     animation: carrousel 5s infinite; }
 
 @keyframes carrousel {
   0% {
-    background-image: url(./blume/nosotras/modelo-feliz.png); }
+    background-image: url(../blume/nosotras/modelo-feliz.png); }
   100% {
-    background-image: url(./blume/nosotras/quienes-somos.jpg); } }
+    background-image: url(../blume/nosotras/quienes-somos.jpg); } }
+
+.productos {
+  display: flex;
+  align-items: center; }
+  .productos__items {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  .productos__items img {
+    width: 300px;
+    height: 400px;
+    margin: 10px 30px 30px 30px; }
+
+.marcas {
+  display: flex;
+  align-items: center; }
+  .marcas__item {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  .marcas__item img {
+    width: 300px;
+    height: 400px;
+    margin: 10px 30px 30px 30px; }

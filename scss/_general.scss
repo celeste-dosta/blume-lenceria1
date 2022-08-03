@@ -37,6 +37,53 @@
 
 }
 
+.encabezado__mobile{
+    
+    @include mediaQueryMobile{
+        display: none;
+    }
+}
+.categorias__mobile{
+    @include mediaQueryMobile{
+        display: none;
+    }
+
+&__conjuntos{
+    display: none;   
+}
+&__bodys{
+    display: none;
+          
+}
+&__trajesDeBano{
+    display: none;
+    
+}
+&__maternal{
+    display: none;
+}
+&__pijamas{
+    display: none;
+}
+&__sexy{
+    display: none;
+}
+
+}
+.ingresos__mobile{
+    display: none;
+&__corpino{
+    display: none;
+}
+&__body{
+    display: none;
+}
+&__camison{
+    display: none;
+}
+}
+
+
 .encabezado{
     display: flex;
     flex-direction: row;
@@ -128,9 +175,10 @@
     height: 100%;
     border-radius: 10px;
     top: 0%;
+    list-style: none;
     
     &__logo{
-        width: auto;
+        width: 100px;
         height: auto;
         align-items: center; 
 
@@ -171,8 +219,17 @@
         justify-content:flex-start;
         background-color: map-get($colores, "color-secundario"); 
     }
+    &__lista{
+        a{
+            text-decoration: none ;
+            color: black;
+
+        }
+    }
     
 }
+
+
 
 h2{
     text-align: center;

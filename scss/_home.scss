@@ -18,45 +18,8 @@
     @include flex (row, space-evenly, flex-start, wrap)
     position: relative;
 }
-.encabezado__mobile{
-    display: none;
-}
-.categorias__mobile{
-    display: none;
-    
-&__conjuntos{
-    display: none;   
-}
-&__bodys{
-    display: none;
-          
-}
-&__trajesDeBano{
-    display: none;
-    
-}
-&__maternal{
-    display: none;
-}
-&__pijamas{
-    display: none;
-}
-&__sexy{
-    display: none;
-}
-}
-.ingresos__mobil{
-    display: none;
-&__corpino{
-    display: none;
-}
-&__body{
-    display: none;
-}
-&__camison{
-    display: none;
-}
-}
+
+
 
 .categorias{
   
@@ -69,7 +32,7 @@
     overflow:hidden;
     width:100%;
     align-content: 100vh;
-    background-image: url(./css-styles/imagenes/fondo.jpg);
+    background-image: url(../css-styles/imagenes/fondo.jpg);
     background-repeat:repeat;
 &__conjuntos{
     width: 400px;
