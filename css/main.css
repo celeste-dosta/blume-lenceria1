@@ -5,6 +5,7 @@
 
 .contenedor {
   font-family: 'Mukta', sans-serif;
+  font-size: 20px;
   display: grid;
   grid-template-areas: 'header header header' 'main main main' 'footer footer footer';
   grid-template-columns: auto;
@@ -96,6 +97,15 @@
       line-height: 1.5;
       word-spacing: 1.5; }
 
+#carouselExampleDark img {
+  width: 550px;
+  height: 650px;
+  margin: 0 auto; }
+
+.carousel-inner {
+  width: 500px;
+  height: 500px; }
+
 .fin {
   display: flex;
   flex-direction: row;
@@ -150,11 +160,16 @@
 h2 {
   text-align: center;
   background-color: pink;
-  font-size: 30px;
+  font-size: 24px;
   width: 100%;
   height: 50px;
   padding: 1px;
   margin: 1px 5px 1px 5px; }
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 10px; }
 
 h4 {
   text-align: center;
@@ -164,12 +179,12 @@ h4 {
   h4__whatsapp {
     text-align: center;
     margin-top: 30px;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 30PX; }
 
 h5 {
   text-align: center;
-  font-size: 25px; }
+  font-size: 20px; }
 
 .img-thumbnail {
   width: 100px;
@@ -239,8 +254,8 @@ h5 {
   .categorias__conjuntos {
     width: 400px;
     height: 600px;
-    padding: 0 auto;
-    margin: 20px 50px 50px 100px;
+    margin: 0 auto;
+    padding-top: 40px;
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -258,8 +273,8 @@ h5 {
   .categorias__bodys {
     width: 400px;
     height: 600px;
-    padding: 0 auto;
-    margin: 30px 100px 50px 150px;
+    margin: 0 auto;
+    padding-top: 40px;
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -276,8 +291,8 @@ h5 {
   .categorias__trajesDeBano {
     width: 400px;
     height: 600px;
-    padding: 0 auto;
-    margin: 20px 50px 50px 150px;
+    margin: 0 auto;
+    padding-top: 40px;
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -294,8 +309,8 @@ h5 {
   .categorias__pijamas {
     width: 400px;
     height: 600px;
-    padding: 0 auto;
-    margin: 20px 100px 50px 100px;
+    margin: 0 auto;
+    padding-top: 40px;
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -312,8 +327,8 @@ h5 {
   .categorias__maternal {
     width: 400px;
     height: 600px;
-    padding: 0 auto;
-    margin: 20px 100px 50px 100px;
+    margin: 0 auto;
+    padding-top: 40px;
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -324,8 +339,8 @@ h5 {
   .categorias__sexy {
     width: 400px;
     height: 600px;
-    padding: 0 auto;
-    margin: 20px 50px 50px 150px;
+    margin: 0 auto;
+    padding-top: 40px;
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;

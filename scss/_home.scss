@@ -37,8 +37,8 @@
 &__conjuntos{
     width: 400px;
     height: 600px;
-    padding: 0 auto;
-    margin:20px 50px 50px 100px;
+    margin:0 auto;
+    padding-top: 40px;
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -59,8 +59,8 @@
 &__bodys{
     width: 400px;
     height: 600px;
-    padding: 0 auto;
-    margin: 30px 100px 50px 150px;
+    margin:0 auto;
+    padding-top: 40px;
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -81,9 +81,9 @@
 &__trajesDeBano{
     width: 400px;
     height: 600px;
-    padding: 0 auto;
-    margin:20px 50px 50px 150px;
-     position: relative;
+    margin:0 auto;
+    padding-top: 40px;
+    position: relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     border-radius: 20px; 
@@ -102,8 +102,8 @@
 &__pijamas {
     width: 400px;
     height: 600px;
-    padding: 0 auto;
-    margin:20px 100px 50px 100px;
+    margin:0 auto;
+    padding-top: 40px;
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -121,11 +121,10 @@
     box-shadow: 5px 8px 12px black;
  }
  &__maternal{
- 
     width: 400px;
     height: 600px;
-    padding: 0 auto;
-    margin:20px 100px 50px 100px;
+    margin:0 auto;
+    padding-top: 40px;
     position:relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -138,8 +137,8 @@
  &__sexy{
     width: 400px;
     height: 600px;
-    padding: 0 auto;
-    margin:20px 50px 50px 150px; 
+    margin:0 auto;
+    padding-top: 40px;
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
