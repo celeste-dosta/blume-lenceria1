@@ -1,44 +1,4 @@
 
-@media only screen and (max-width: 375px) {
-  
-  
- /*.encabezado__navegador{
-    display: none;
-  }
-
-  */
-.nav-mobile{
-    display: block;
-}
-.nav-mobile ul{
-    display: block;
-}
-.nav-mobile img{
-    display: none;
-}
-
-.categorias__mobile{
-    display: block;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-
- 
-}
-.footer{
-    display: block;
-}
-.ingresos__mobil{
-    display: block;
-}
-.nosotras__quienessomos{
-    display: block;
-
-}
-.nosotras__flor{
-    display: block;
-}
-}
 
 .fin__ubicacion iframe {
 

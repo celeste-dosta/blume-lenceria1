@@ -1,0 +1,15 @@
+.table{
+    grid-area:1/2/2/1;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    
+    &__talles{
+        align-items: center; 
+    }
+    &__talles__corpino {
+        justify-items: center;
+    }
+
+}
